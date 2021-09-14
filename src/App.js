@@ -21,12 +21,13 @@ const App = () => {
           "Place of birth",
         ]}
         title="F1 Drivers 2020"
+        breakOn="large"
       />
       <Table
         tableData={tracksData}
         headingColumns={["Name", "Country", "Length(KM)", "Number of laps"]}
         title="Top F1 tracks"
-        breakOn="small"
+        breakOn="medium"
       />
     </Fragment>
   );
